@@ -27,7 +27,7 @@ jobs:
 #           output: 'minify/src/' # (OPTIONAL)
         
       - name: Publish action 
-        uses: actions-on-packages/package-action@0.4.4
+        uses: actions-on-packages/package-action@refs/heads/kchandra548-patch-1
         with: 
             path: 'dist/'
         
